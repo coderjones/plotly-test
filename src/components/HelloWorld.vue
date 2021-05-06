@@ -5,6 +5,11 @@
         <Plotly :data="data" :layout="layout" :display-mode-bar="true"></Plotly>
       </v-col>
     </v-row>
+    <v-row>
+      <v-col cols="12">
+        <Plotly :data="databar" :layout="layout" :display-mode-bar="true"></Plotly>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
@@ -25,6 +30,17 @@
       x: [1,2,3,4],
       y: [16,5,11,9],
       type:"scatter"
+    }
+    ],
+    databar:[{
+      x: [1,2,3,4],
+      y: [10,15,13,17],
+      type:"bar"
+    },
+    {
+      x: [1,2,3,4],
+      y: [16,5,11,9],
+      type:"bar"
     }
     ],
     layout:{
