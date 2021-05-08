@@ -2,7 +2,9 @@
   <v-container>
       <section>
 
-        <h4 class="v-heading text-h6 mb-2">Histogram </h4> <p>And example of using a histogram with random data. </p>
+        <h4 class="v-heading text-h6 mb-2">Histogram </h4> 
+        <p>An example of using a histogram with random data. </p>
+        <p><a href="https://plotly.com/javascript/histograms/" target="_blank">Plotly documentation</a></p>
       </section>
     <v-row>
         <v-col cols="12">
