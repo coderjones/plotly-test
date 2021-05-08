@@ -1,5 +1,8 @@
 # plotly-test
 
+A set of examples using the vue-plotly component with Vuetify.
+View the project I'm using at https://github.com/statnett/vue-plotly
+
 ## Project setup
 ```
 npm install
