@@ -11,8 +11,6 @@ app.use(function(req, res, next) {
     next();
   });
   
-//app.use(bodyParser.json({ extended: false }));
-
 app.get('/', (req, res) => res.send('Hello World!'));
 
 app.get("/histogram", (req,res) => {
@@ -36,20 +34,20 @@ app.get("/histogram", (req,res) => {
     // handle this request `req.params.id`
   })
 
-  app.post('/<path>', (req, res) => {
-    console.log('req.body', req.body) // contains incoming data
-  })
+//   app.post('/<path>', (req, res) => {
+//     console.log('req.body', req.body) // contains incoming data
+//   })
 
-  app.put('/products', function(req, res) {
-    let updatedProduct;
-    products = products.map(p => {
-      if (p.id === req.body.id) {
-        updatedProduct = { ...p, ...req.body };
-        return updatedProduct;
-      }
-      return p;
-    })
-    res.json(updatedProduct);
-  });
+//   app.put('/products', function(req, res) {
+//     let updatedProduct;
+//     products = products.map(p => {
+//       if (p.id === req.body.id) {
+//         updatedProduct = { ...p, ...req.body };
+//         return updatedProduct;
+//       }
+//       return p;
+//     })
+//     res.json(updatedProduct);
+//   });
 
   app.listen(port, () => console.log(`Example app listening on port ${port}!`));
