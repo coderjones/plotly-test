@@ -42,7 +42,7 @@
                         return [trace];
                     }
                 }
-    }</code>
+            }</code>
             </pre>
         </v-col>
     </v-row>     
