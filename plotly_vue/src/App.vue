@@ -17,9 +17,10 @@
     <v-main>
       <v-row>
         <v-col cols="2">
-      <v-card>
+
     <v-navigation-drawer
       v-model="drawer"
+      absolute
       permanent
     >
       <v-list dense>
@@ -39,7 +40,7 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-  </v-card>
+ 
         </v-col>
         <v-col cols="9" v-if="viewSwitch == 'Scatter'">
           <Scatter/>
