@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-row class="text-center">
+    <v-row class="text-center dark">
       <v-col cols="12">
         <h3>Pick a chart example from the left navigation</h3>
       </v-col>
